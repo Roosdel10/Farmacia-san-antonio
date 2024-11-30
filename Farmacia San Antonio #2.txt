@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmacia San Antonio #2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0288d1;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        header p {
+            margin: 5px 0 0;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .contacto {
+            background-color: #e1f5fe;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px auto;
+            max-width: 600px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .contacto h2 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #0288d1;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmacia San Antonio #2</h1>
+        <p>Tu salud, nuestra prioridad</p>
+    </header>
+    <main>
+        <section class="contacto">
+            <h2>Información de Contacto</h2>
+            <p><strong>Dirección:</strong> Cuyamel, Omoa, Cortés</p>
+            <p><strong>Barrio:</strong> Morazán</p>
+            <p><strong>Calle Principal</strong></p>
+            <p><strong>Teléfono:</strong> <a href="tel:99109517">9910-9517</a></p>
+        </section>
+        <section>
+            <h2>¿Dónde estamos?</h2>
+            <p>Encuéntranos en el corazón de Cuyamel, en la calle principal del barrio Morazán.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Farmacia San Antonio #2. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
